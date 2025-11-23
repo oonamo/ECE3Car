@@ -99,6 +99,7 @@ void loop()
 
     // TODO: Autostop might have issues from turning off the sensors
     // Maybe decrease the amount of sensors needed for count2?
+    // Also make sure to ignore continous readings of max_reads
     if (count2 >= 6)
     {
         if (!hasTurned)
